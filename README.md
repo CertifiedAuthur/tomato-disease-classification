@@ -94,7 +94,7 @@ Installation
 
 #### Clone the Repository:
 
-git clone https://github.com/yourusername/tomato-disease-classification-api.git
+git clone https://github.com/CertifiedAuthur/tomato-disease-classification-api.git
 cd tomato-disease-classification-api
 
 #### Create and Activate Virtual Environment:
