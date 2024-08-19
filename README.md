@@ -13,16 +13,16 @@ Model
 
 The project uses a pre-trained deep learning model for tomato disease classification. The model identifies the following diseases:
 
-Tomato Bacterial Spot
-Tomato Early Blight
-Tomato Late Blight
-Tomato Leaf Mold
-Tomato Septoria Leaf Spot
-Tomato Spider Mites (Two-spotted Spider Mite)
-Tomato Target Spot
-Tomato Yellow Leaf Curl Virus
-Tomato Mosaic Virus
-Tomato Healthy
+Tomato Bacterial Spot,
+Tomato Early Blight,
+Tomato Late Blight,
+Tomato Leaf Mold,
+Tomato Septoria Leaf Spot,
+Tomato Spider Mites (Two-spotted Spider Mite),
+Tomato Target Spot,
+Tomato Yellow Leaf Curl Virus,
+Tomato Mosaic Virus,
+Tomato Healthy.
 
 #### Development and Testing Stages
 Model Training and Export
