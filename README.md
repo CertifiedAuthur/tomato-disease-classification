@@ -33,6 +33,7 @@ Model Export: The trained model was saved in the .h5 format. It was then convert
 import tensorflow as tf
 
 model = tf.keras.models.load_model('path_to_trained_model/tomatoes.h5')
+
 model.save('path_to_export_model/saved_model')
 
 ##### TensorFlow Serving Setup
