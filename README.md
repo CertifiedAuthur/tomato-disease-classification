@@ -78,12 +78,11 @@ endpoint = "http://localhost:8501/v1/models/tomatoes_model:predict"
 CLASS_NAMES = ['Tomato_Bacterial_spot', 'Tomato_Early_blight', ...]  # Complete list of classes
 
 def read_file_as_image(data) -> np.ndarray:
-
     image = np.array(Image.open(BytesIO(data)))
-    
     return image
 
 @app.post("/predict")
+
 async def predict(file: UploadFile = File(...)):
 
     image = read_file_as_image(await file.read())
